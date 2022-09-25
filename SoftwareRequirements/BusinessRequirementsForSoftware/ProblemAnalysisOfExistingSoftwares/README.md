@@ -1,1 +1,7 @@
 ### Проблемний аналіз існуючих програмних продуктів
+|                                                                                                                | Самоповага                | Особиста безпека             | Зацікавленість архитектурою | Тип ліцензії | Примітка |
+|----------------------------------------------------------------------------------------------------------------|---------------------------|------------------------------|-----------------------------|--------------|----------|
+| Продукт / Пошукові фрази                                                                                       | Software for Self-respect | Software for Personal safety | Architectual software       |              |          |
+| ThinkUp me http://thinkup.me/                                                                                  | 2                         |                              |                             | Shareware    |          |
+| Personal Safety https://play.google.com/store/apps/details?id=com.google.android.apps.safetyhub&hl=en_US&gl=US |                           | 2                            |                             | Free         |          |
+| AutoCad https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription                        |                           |                              | 4                           | Proprietary  |          |
