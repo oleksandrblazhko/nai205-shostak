@@ -1,1 +1,3 @@
 ### Бачення програмного продукту
+
+**FOR** all humans , **WHO(WHICH)** needs personal safety and self-esteem through an interest in the architecture of food **THE** PSAF (Personal safety and food) **IS** multi-platform software product **THAT** allows you to improve your self-esteem every day with the help of food architecture, and with a new update, your personal security **UNLIKE** other applications, we do not have competitors who, with their applications, made competition, and thereby pointed out our mistakes, but we will involve our audience more strongly, and thereby make up for this shortcoming **OUR** product the first in the world who, with the help of the architecture of food, can improve such important aspects of a person as: personal safety and self-esteem
