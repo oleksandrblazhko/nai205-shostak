@@ -1,2 +1,2 @@
 ### Діаграма прецедентів програмного продукту
-![os](https://user-images.githubusercontent.com/79439913/195125738-1255cc74-bfc8-4933-aebc-eb9d2a2811e0.jpg)
+![SW](https://user-images.githubusercontent.com/79439913/195166399-93db410c-0084-4253-b70d-48e03564362f.jpg)
