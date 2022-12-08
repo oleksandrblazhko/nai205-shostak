@@ -1,0 +1,55 @@
+@startuml
+title Example of Relation Schema
+
+hide circle
+
+entity "User" as us {
+    (PK) id_user
+    --
+    Name
+    Surname
+    Language
+    Liked genres of literature
+    Authorized
+}
+
+entity "Editor" as ed {
+    (PK) id_editor
+    --
+    Name
+    Surname
+    Language
+}
+
+entity "Author" as au {
+    (PK) id_author
+    --
+    Name
+    Surname
+    Language
+    Genre of literature
+    Rating
+    Hired
+}
+
+entity "Article" as ar {
+    (PK) id_article
+    --
+    Length
+    Genre of literature
+    Rating
+    Link for text
+    (FK) id_editor
+    (FK) id_author
+}
+
+entity "Article-User" as aru {
+    (FK) id_article
+    (FK) id_user
+}
+
+us --{ aru
+ar --{ aru
+ed --{ ar
+au --{ ar
+@enduml
