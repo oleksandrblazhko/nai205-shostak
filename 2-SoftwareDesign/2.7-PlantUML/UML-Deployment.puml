@@ -1,0 +1,20 @@
+@startuml uml2
+
+title Deployment for information System
+
+left to right direction
+
+node "<< Смартфон >>" as sm {
+  node "<< Android OS >>" {
+    component [~*.apk\n(.Net Xamarin)]
+  }
+  node "<< IOS >>" {
+    component [~*.apk\n(.Net Xarаmin)]
+  }
+}
+
+interface "Сенсорний екран" as sn
+
+sn - sm
+
+@enduml
