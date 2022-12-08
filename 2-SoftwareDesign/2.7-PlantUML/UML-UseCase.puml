@@ -1,0 +1,11 @@
+@startuml
+actor Пользователь as act #LightBlue
+
+rectangle System {
+    usecase (Чтение статьей) as use1 #LightGreen
+    usecase (Просматривать статьи) as use2 #LightGreen
+
+    act -- use1
+    use1 .> use2 : include
+}
+@enduml
