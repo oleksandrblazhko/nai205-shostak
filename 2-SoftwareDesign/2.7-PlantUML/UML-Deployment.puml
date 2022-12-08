@@ -9,7 +9,7 @@ node "<< Смартфон >>" as sm {
     component [~*.apk\n(.Net Xamarin)]
   }
   node "<< IOS >>" {
-    component [~*.apk\n(.Net Xamarin.)]
+    component [~*.apk\n(.Net Xamarinn)]
   }
 }
 
