@@ -1,0 +1,15 @@
+@startuml
+title Activity Diagram
+
+start
+
+:Редактор делает выгрузку статей в приложение; 
+
+if (Выгрузка закончилась успешно?) then (yes)
+  :Статья успешно выгружена в приложение ;
+else (no)
+  :Error;
+endif
+
+stop
+@enduml
