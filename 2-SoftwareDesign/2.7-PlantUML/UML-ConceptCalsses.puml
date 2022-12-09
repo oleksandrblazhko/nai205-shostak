@@ -1,0 +1,37 @@
+@startuml
+title Concept Classes Diagram
+
+skinparam linetype ortho
+
+Class "SystemUser" as su {
+    Name
+    Surname
+}
+Class "User" as u {
+    Liked genres of literature
+    IsAuthorized
+}
+Class "Editor" as ed {
+    Languages
+    IsAuthorized
+}
+Class "Author" as au {
+    Genre of literature
+    Rating
+    Hired
+}
+Class "Article" as ar {
+    Length
+    Genre of literature
+    Rating
+    Link for text
+}
+
+ed --|> su
+u --|> su
+au --|> su
+u"*" --> "*"ar : переглядає
+ed"1" --> "*"ar : редагує
+au"1" --> "*"ar : пише
+au"*" --> "1"ed : передає статтю на редагування
+@enduml
